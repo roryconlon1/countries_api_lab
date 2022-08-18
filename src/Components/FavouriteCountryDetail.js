@@ -3,17 +3,17 @@ import React from "react";
 
 const FavouriteCountryDetail = ({favouriteCountry}) => {
 
-   
+
 
     const listFavCountry = favouriteCountry.map((country) => {
-       return (
+    return (
         
             <h1 key={country.id} name={country.name.common}>{country.name.common}</h1>
         
-       )
-  
+    )
+
     })
- 
+
     
     return(
         <div>
